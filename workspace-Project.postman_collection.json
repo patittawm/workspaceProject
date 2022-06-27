@@ -160,7 +160,7 @@
 							"});",
 							"//Verify Description",
 							"pm.test(\"Verify Id from the response bady for api endpoint menber-of\", function () {",
-							"    pm.expect(responseData[0].descrition).to.equal('');",
+							"    pm.expect(responseData[0].description).to.equal('');",
 							"});",
 							"",
 							"//Save value in a Environment Variable id",
